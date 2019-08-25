@@ -1,0 +1,12 @@
+#cancel chat messages when chars with >1 byte count is bigger or equal to 13
+cancelWhenCountGreaterThan: 13
+#chars to skip when we validate a message. If you have chinese users add here chinese chars etc.
+#just chars that have more than 1 byte (normal char such as "A" has 1 byte) china,german chars have 2 bytes
+charsToSkip:
+  - "§"
+  - "ä"
+  - "ö"
+  - "ü"
+  - "ß"
+#message to player when his message is blocked
+cancelledMessage: "&cYour message has been blocked! It contains invalid chars."

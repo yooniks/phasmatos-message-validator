@@ -1,0 +1,6 @@
+name: 'PhasmatosMessagesValidator'
+version: ${project.version}
+main: 'xyz.yooniks.messagevalidator.MessageValidatorPlugin'
+authors: [yooniks]
+description: 'Block invalid messages on your chat that may be reason of fps drop!'
+website: 'www.github.com/yooniks'
